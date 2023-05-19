@@ -1,0 +1,57 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+}
+
+div {
+	padding: 50px;
+}
+
+div h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+div ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div ul li h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+div ul li p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}

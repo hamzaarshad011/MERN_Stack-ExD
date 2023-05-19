@@ -1,8 +1,8 @@
 {
   "name": "crud",
   "version": "1.0.0",
-  "description": "User and Host Crud Impelementation",
-  "main": "index.js",
+  "description": "User Crud Impelementation",
+  "main": "crud.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

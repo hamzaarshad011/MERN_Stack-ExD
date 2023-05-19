@@ -1,0 +1,15 @@
+
+#counter {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px auto;
+  width: 200px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+  padding: 10px;
+  width: 150px;
+}

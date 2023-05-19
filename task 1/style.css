@@ -1,0 +1,95 @@
+  /* CSS styling goes here */
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+      }
+     .language {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+  }
+  .labelValue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  /* .language label {
+    /* display: block; */
+    /* margin-bottom: 5px; 
+  }*/
+
+  .language input[type="radio"] {
+    display: block;
+    margin-bottom: 0px;
+  }
+      
+      .header {
+        background-color: #203415;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+        
+      }
+      
+      .header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+      
+      div {
+        margin: 5px;
+      }
+      
+      h3 {
+        margin-top: 40px;
+      }
+      
+      table {
+        border-collapse: collapse;
+        margin-bottom: 40px;
+      }
+      
+      table th, table td {
+        border: 1px solid #ccc;
+        padding: 8px;
+      }
+      
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      ul li {
+        margin-bottom: 10px;
+      }
+      
+      form {
+        margin-top: 40px;
+      }
+      
+      label, input, textarea {
+        display: block;
+        margin-bottom: 10px;
+        /* width: 100%; */
+      }
+      
+      input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #444;
+      }
