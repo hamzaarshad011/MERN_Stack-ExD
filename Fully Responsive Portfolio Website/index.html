@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Responsive Portfolio Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOX Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <a href="#" class="logo">Hamza </a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+
+      <!-- Menu -->
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Main Home Text And Image -->
+    <section id="home">
+      <div class="home-text">
+        <h1>Hy, I'm <br />Hamza <span>Arshad</span> <br />NodeJS Developer</h1>
+        <!-- Button -->
+        <a href="#contact">Hire Me</a>
+      </div>
+      <!-- Home Image -->
+      <div class="home-img">
+        <img src="images/profile.png" alt="" />
+      </div>
+
+      <!-- Social -->
+      <div class="social">
+        <a href="https://github.com/hamzaarshad011" , target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/hamza-arshad-ver1/"
+          ,
+          target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <i class="bx bxl-instagram"></i>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="heading">
+        <h2>About</h2>
+        <p>My Introduction</p>
+      </div>
+      <div class="about-content">
+        <!-- About Image -->
+        <div class="about-img">
+          <img src="images/about.png" alt="" />
+        </div>
+        <!-- About Text -->
+        <div class="about-text">
+          <h1>I'm Hamza</h1>
+          <p>
+            Experienced backend developer proficient in Node.js, specializing in
+            building robust and scalable applications. Skilled in designing and
+            implementing RESTful APIs, handling databases, and ensuring data
+            security. Proficient in server-side programming, error handling, and
+            optimizing application performance. Committed to delivering
+            efficient and maintainable code while adhering to industry best
+            practices. Seeking challenging opportunities to leverage my
+            expertise in Node.js and contribute to the development of innovative
+            and reliable backend solutions.
+          </p>
+
+          <a
+            href="https://drive.google.com/file/d/1NQdtXyL_6hEnr85xeCnRgfbdXPO79scT/view?usp=share_link"
+            target="_blank"
+            >Download Cv</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="heading">
+        <h2>Services</h2>
+        <p>Services We Offer,</p>
+      </div>
+      <div class="services-content">
+        <!-- Boxes -->
+        <div class="box">
+          <img src="images/html.png" alt="" />
+          <h1>HTML Project</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ex
+            perferendis iusto placeat fuga laborum.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/css-3.png" alt="" />
+          <h1>CSS Project</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ex
+            perferendis iusto placeat fuga laborum.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/js.jpg" alt="" />
+          <h1>Javasript Project</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ex
+            perferendis iusto placeat fuga laborum.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/ux.png" alt="" />
+          <h1>UX/UI Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ex
+            perferendis iusto placeat fuga laborum.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/wordpress.png" alt="" />
+          <h1>Wordpress</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ex
+            perferendis iusto placeat fuga laborum.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/prototype.png" alt="" />
+          <h1>Prototype</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ex
+            perferendis iusto placeat fuga laborum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work">
+      <div class="heading work-heading">
+        <h2>Work</h2>
+        <p>Work With Us</p>
+      </div>
+      <div class="work-content">
+        <div class="work-text">
+          <h1>
+            We Belive To Deliver Best <br />
+            Quality Work
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+            sint, libero consequatur iusto nulla praesentium. Ab ipsum iusto
+            molestias odio. Dolorem voluptatum praesentium repudiandae amet
+            soluta doloremque, nam ipsa, commodi dicta ab, quisquam quos velit!
+          </p>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="work-img">
+          <img src="images/work.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="heading color">
+        <h2>Contact</h2>
+        <p>Leave a message we will try to reply in 24 hours.</p>
+      </div>
+      <div class="contact-content">
+        <div class="app">
+          <h1>
+            Connect With Us <br />
+            By Our Apps
+          </h1>
+          <a href="#" class="bx bxl-play-store"></a>
+          <a href="#" class="bx bxl-apple"></a>
+        </div>
+        <div class="contact-form">
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Your E-mail" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message Here..."
+            ></textarea>
+            <input type="button" value="Send" class="contact-button" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="copyright">
+      <p>&#169; 2021 CarpoolVenom All Right Reserves</p>
+    </div>
+
+    <!-- Scroll Animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
