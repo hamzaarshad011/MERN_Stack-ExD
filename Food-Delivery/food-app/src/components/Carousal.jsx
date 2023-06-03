@@ -31,7 +31,7 @@ const Carousal = () => {
               <img
                 src="https://source.unsplash.com/random/300×300?barbeque"
                 className="d-block w-100"
-                style={{ filter: "brightness(30%)" }}
+                style={{ filter: "brightness(30%)", height: "70vh" }}
                 alt="..."
               />
             </div>
@@ -39,7 +39,7 @@ const Carousal = () => {
               <img
                 src="https://source.unsplash.com/random/300×300?burger"
                 className="d-block w-100"
-                style={{ filter: "brightness(30%)" }}
+                style={{ filter: "brightness(30%)", height: "70vh" }}
                 alt="..."
               />
             </div>
@@ -47,7 +47,7 @@ const Carousal = () => {
               <img
                 src="https://source.unsplash.com/random/300×300?piza"
                 className="d-block w-100"
-                style={{ filter: "brightness(30%)" }}
+                style={{ filter: "brightness(30%)", height: "70vh" }}
                 alt="..."
               />
             </div>

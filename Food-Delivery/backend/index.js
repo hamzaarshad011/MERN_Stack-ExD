@@ -1,17 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const mongoDB = require("./database");
 const app = express();
-const port = 5000;
 
-mongoose
-  .connect("mongodb://127.0.0.1:27017/gofood")
-  .then(() => {
-    console.log("Database connected successfully");
-    // Your application code goes here
-  })
-  .catch((error) => {
-    console.error("Database connection error:", error);
-  });
+const port = 5000;
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
@@ -20,3 +12,4 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on Port ${port}`);
 });
+mongoDB();
